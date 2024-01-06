@@ -1,0 +1,94 @@
+DataTypes and Variables
+--------------------------
+
+	float: floating point numbers - 4 bytes 7 precision (decimal) digits
+		float float_num = 0.0f;
+		
+	double: floating point numbers - 8 bytes 15-16 precision (decimal) digits
+		double double_num = 0.0d;
+
+	decimal: money values - 16 bytes 28-29 precision (precision) places
+		decimal decimal_num = 0.0m;
+
+	string: string values
+
+	char
+		char letter_a = 'a';
+
+	bool: true/false
+
+	int: numbers
+
+	uint: positive numbers starting with 0
+
+	long: numbers
+
+	ulong: positive numbers starting with 0
+
+	short: -32,768 to 32,767
+
+	sbyte: -128 to 129
+
+	byte: positive number 0 to 255
+
+	ushort: positive numbers, starts with 0
+
+	DateTime
+
+	TimeSpan
+
+	DateTimeOffset
+
+	var
+	
+-------------------------------------
+
+Precedence of operators: () */ +- =
+
+-------------------------------------
+
+Comparison Operators: == equal, != not equal, > greater than, < less than, >= greater than or equal to, <= less than or equal to 
+
+-------------------------------------
+
+Logical Operators 
+	
+	ConditionX		ConditionY		AND		OR
+	true			true			true	true
+	true			false			false	true
+	false			true			false	true
+	false			false			false	false
+	
+-------------------------------------
+
+Error Types
+	Syntax Errors like missing a ;
+	Run time Errors (Exceptions)
+	Logical Errors
+	
+-------------------------------------
+
+Math
+	Math.Ceiling(3.2) = 4
+	Math.Ceiling(4.6) = 5
+	
+	Math.Floor(4.6) = 4
+	
+	Match.Round(4.6) = 5
+	Match.Round(4.2) = 4
+	Match.Round(4.2, 1) = 4.2
+	Match.Round(4.22, 1) = 4.2
+	Match.Round(4.26, 1) = 4.3
+	
+	Math.Truncate(4.227) = 4
+	
+	Math.Max(9,4) = 9
+	Math.Min(9,4) = 4
+	
+	Math.Sqrt(9) = 3
+	Math.Sqrt(4) = 2
+	
+	Math.Pow(2, 2) = 4
+	Math.Pow(3, 2) = 9
+	
+	Math.PI it will give 3.1415926535897931
