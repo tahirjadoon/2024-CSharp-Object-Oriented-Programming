@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P002.Polymorphism", "P002.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P003.Abstraction", "P003.Abstraction\P003.Abstraction.csproj", "{5E205BC8-C623-4D8A-9D78-1069DC729CB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P004.Exercise.ClassStructEnum", "P004.Exercise.ClassStructEnum\P004.Exercise.ClassStructEnum.csproj", "{B000FD26-1BEA-498D-816A-3FA08B620EAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5E205BC8-C623-4D8A-9D78-1069DC729CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E205BC8-C623-4D8A-9D78-1069DC729CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E205BC8-C623-4D8A-9D78-1069DC729CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B000FD26-1BEA-498D-816A-3FA08B620EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B000FD26-1BEA-498D-816A-3FA08B620EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B000FD26-1BEA-498D-816A-3FA08B620EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B000FD26-1BEA-498D-816A-3FA08B620EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
