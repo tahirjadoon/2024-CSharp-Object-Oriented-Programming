@@ -102,7 +102,7 @@ Object Oriented Programming
 
 	Polymorphism: Poly means many and Morph means forms. It is the process in which an object or function take different forms
 
-	Abstration: is the process of showing only essential features of an object to the outside world and hide the other irrelevant information.
+	Abstraction: is the process of showing only essential features of an object to the outside world and hide the other irrelevant information.
 	
 	Methods: 
 		Code block
@@ -111,4 +111,27 @@ Object Oriented Programming
 		
 	Overloaded Methed: Multiple methods with the same name but different arguments 
 
+	Sealed Classes: no one can inherit from these 
 	
+	Static Classes: Cannot create instance, are sealed and have static members
+	
+	Nested Classes: A class placed inside a class 
+	
+	Partial Classes: Can create classes into different files with keyword partial 
+	
+	Access Modifiers
+		Public: access is not restricted
+		Protected: Access is limited to the containing class or types derived from the containing class
+		Private: Access is limited to the containing type 
+		Internal: Access is limited to the current assembly
+		Proected internal: access is limited to the current assembly or types derived from the containing class
+		
+	Namespaces: is a container, used for grouping, organising code
+	
+	Struct: use the same access modifiers as classes 
+		Classes are reference type where as struct are value type 
+		Classes lives on heap, struct lives inline - stack
+		Struct cannot support inheritance
+		
+	enum: an enum (or enumeration type) is used to assign constant names to a group of numeric integer values
+		
