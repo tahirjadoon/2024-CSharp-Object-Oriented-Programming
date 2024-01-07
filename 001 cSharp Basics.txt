@@ -92,3 +92,23 @@ Math
 	Math.Pow(3, 2) = 9
 	
 	Math.PI it will give 3.1415926535897931
+	
+--------------------------------------
+
+Object Oriented Programming 
+	Inheritance: The process of creating the new class by extending the existing class or the process of inheriting the features  of base class 
+
+	Encapsulation: Encapculation is the process of binding data members (vraiables, properties) and methods together
+
+	Polymorphism: Poly means many and Morph means forms. It is the process in which an object or function take different forms
+
+	Abstration: is the process of showing only essential features of an object to the outside world and hide the other irrelevant information.
+	
+	Methods: 
+		Code block
+		Can pass params by value - using a copy
+		Can pass by reference: using the variale itself - ref or out keyword 
+		
+	Overloaded Methed: Multiple methods with the same name but different arguments 
+
+	

@@ -1,0 +1,32 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P001.Encapsulation
+
+	Principal
+		
+		A folder Principal is created
+		
+			Namespace used for all the classes is P001.Encapsulation 
+			
+			Animal: is the base class that has private, public, protected and internal methods and variables
+			
+			Dog: inherits Animal so in it public, protected and internal items are available
+			
+			Cat: dpesn't inherit from Animal. It works with an animal object. In this case only public and internal are available
+		
+	Vehicle Exercise 
+	
+		A folder VehicleExercise is created 
+		
+			Namespace used for all the classes is P001.Encapsulation
+			
+			Vehicle: is the base class. It is empty to begin with 
+			
+			WheeledVehicle: inherits from Vehicle. It has propertes and one method 
+			
+			FourWheeledVehicle: inherits from WheeledVehicle. It has properteis and two methods 
+		
+		Go to Program.cs
+			Create an object to FourWheeledVehicle and checked the methods and properties available even from the base classes 
+			
+		
+		
