@@ -1,0 +1,58 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P002.Polymorphism
+
+	Principal
+		
+		A folder Principal is created
+		
+		All classes use namespace P002.Polymorphism
+		
+		Attempt #1
+		
+			Shape: is the base class and has a single Method Draw		
+				public void Draw()
+			Circle: inherits from Shape and has the same method as parent called Draw
+				public void Draw()
+			Line: inherits from Shape and has the same method as parent called Draw
+				public void Draw()
+			Triangle: inherits from Shape and has the same method as parent called Draw
+				public void Draw()
+			
+			The draw method in Circle, Line and Triangle is hidden
+			
+			Program.cs 
+				Shape[] shapes = new Shape[4];
+				shapes[0] = new Shape();
+				shapes[1] = new Circle();
+				shapes[2] = new Line();
+				shapes[3] = new Triangle();
+				
+				foreach (var shape in shapes)
+				{
+					shape.Draw();
+				}
+				
+			Run Results
+				I am a simple shape
+				I am a simple shape
+				I am a simple shape
+				I am a simple shape
+				
+		Attempt #2 
+			Shape: add the virtual keyword with Draw method 
+				public virtual void Draw()
+				
+			In Circle, Line and Triangle add override key word with the draw methods 
+				public override void Draw()
+				
+			Run Results 
+				I am a simple shape
+				I am a simple circle
+				I am a simple line
+				I am a simple triangle
+				
+			
+			
+				
+			
+			
