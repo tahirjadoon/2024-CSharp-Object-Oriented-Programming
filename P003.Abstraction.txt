@@ -1,0 +1,38 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P003.Abstraction
+
+	Principal
+		
+		A folder Principal is created
+		
+		All classes use namespace P003.Abstraction
+		
+		Shape: create an abstract class with two methods 		
+			abstract class Shape 
+			
+			methods: 
+				public abstract void Draw();
+				public void SayHi()
+			
+		Program.cs
+			Go to program.cs and try to create an object to Shape and you'll get an error. 
+			Cannot create an object for abstract class 
+			Abstract class is always a base class
+
+		Line: create a new class line and it will inherit from Shape
+			Line will need to implement the Draw method as well 
+				public override void Draw()
+				
+		Program.cs 
+			var line = new Line();
+			line.SayHi();
+			line.Draw();
+			
+		Run Result 
+			Hi from the abstract class
+			Hi from the draw method in line class
+			
+		
+			
+			
+
