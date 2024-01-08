@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P004.Exercise.ClassStructEn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P005.Exercise.Exceptions", "P005.Exercise.Exceptions\P005.Exercise.Exceptions.csproj", "{C263D77B-512F-4698-B30E-E3F3C836D5D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P006.Exercise.Enum-FileCreator", "P006.Exercise.Enum-FileCreator\P006.Exercise.Enum-FileCreator.csproj", "{7951D63A-8443-48E6-BD1A-3F7E62D51F66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C263D77B-512F-4698-B30E-E3F3C836D5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C263D77B-512F-4698-B30E-E3F3C836D5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C263D77B-512F-4698-B30E-E3F3C836D5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7951D63A-8443-48E6-BD1A-3F7E62D51F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7951D63A-8443-48E6-BD1A-3F7E62D51F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7951D63A-8443-48E6-BD1A-3F7E62D51F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7951D63A-8443-48E6-BD1A-3F7E62D51F66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

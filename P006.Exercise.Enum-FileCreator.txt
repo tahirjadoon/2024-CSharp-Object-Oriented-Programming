@@ -1,0 +1,12 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P006.Exercise.Enum-FileCreator
+
+Check Program.cs to see sample code
+
+Create languages enum
+
+Create a folder on desktop called languages 
+
+Inside the languages folder create a folder for each language in enum 
+
+Inside each language folder create a file log.txt and add content to it
