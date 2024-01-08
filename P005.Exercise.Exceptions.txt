@@ -1,0 +1,11 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P005.Exercise.Exceptions
+
+Check Program.cs to handle exceptions 
+
+	Write a while loop to keep on asking for the input
+	In the finaly block ask the user to continire. Y/y or Yes/yes means to continue
+	
+	Ask for two number
+	divide number 1 by 2
+
