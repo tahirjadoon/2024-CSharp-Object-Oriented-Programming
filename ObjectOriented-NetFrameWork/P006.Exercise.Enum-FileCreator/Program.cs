@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP.Core;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -19,11 +20,11 @@ namespace P006.Exercise.Enum_FileCreator
             if (!Directory.Exists(pathParentDir))
             {
                 Directory.CreateDirectory(pathParentDir);
-                WriteLine($"{pathParentDir} Created", ConsoleColor.Green);
+                ConsoleHelper.WriteLine($"{pathParentDir} Created", ConsoleColor.Green);
             }
             else
             {
-                WriteLine($"{pathParentDir} Exists, not creating", ConsoleColor.Red);
+                ConsoleHelper.WriteLine($"{pathParentDir} Exists, not creating", ConsoleColor.Red);
             }
 
             //get the count of items in Languages enum
@@ -39,11 +40,11 @@ namespace P006.Exercise.Enum_FileCreator
                 if(!Directory.Exists(languageDir))
                 {
                     Directory.CreateDirectory(languageDir);
-                    WriteLine($"\t{languageDir} Created", ConsoleColor.Blue);
+                    ConsoleHelper.WriteLine($"\t{languageDir} Created", ConsoleColor.Blue);
                 }
                 else
                 {
-                    WriteLine($"\t{languageDir}  Exists, not creating", ConsoleColor.Magenta);
+                    ConsoleHelper.WriteLine($"\t{languageDir}  Exists, not creating", ConsoleColor.Magenta);
                 }
 
                 //check that the log.txt exists or not
@@ -51,7 +52,7 @@ namespace P006.Exercise.Enum_FileCreator
 
                 if(File.Exists(file))
                 {
-                    WriteLine($"\t\t{file}  Exists, not creating", ConsoleColor.Yellow);                   
+                    ConsoleHelper.WriteLine($"\t\t{file}  Exists, not creating", ConsoleColor.Yellow);                   
                 }
                 else
                 {
@@ -59,22 +60,8 @@ namespace P006.Exercise.Enum_FileCreator
                     {
                         sw.WriteLine($"File No {i+1} created on {DateTime.Now} for {language}");
                     }
-                    WriteLine($"\t\t{file} Created", ConsoleColor.Cyan);
+                    ConsoleHelper.WriteLine($"\t\t{file} Created", ConsoleColor.Cyan);
                 }
-            }
-        }
-
-        static void WriteLine(string message, ConsoleColor? color)
-        {
-            var defaultColor = Console.ForegroundColor;
-            if(color != null)
-            {
-                Console.ForegroundColor = color.GetValueOrDefault();
-            }
-            Console.WriteLine(message);
-            if(color != null)
-            {
-                Console.ForegroundColor = defaultColor;
             }
         }
     }

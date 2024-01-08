@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P005.Exercise.Exceptions", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P006.Exercise.Enum-FileCreator", "P006.Exercise.Enum-FileCreator\P006.Exercise.Enum-FileCreator.csproj", "{7951D63A-8443-48E6-BD1A-3F7E62D51F66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Core", "OOP.Core\OOP.Core.csproj", "{6BF96287-8FDE-4AE7-8C76-823F73D47DA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7951D63A-8443-48E6-BD1A-3F7E62D51F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7951D63A-8443-48E6-BD1A-3F7E62D51F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7951D63A-8443-48E6-BD1A-3F7E62D51F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF96287-8FDE-4AE7-8C76-823F73D47DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF96287-8FDE-4AE7-8C76-823F73D47DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF96287-8FDE-4AE7-8C76-823F73D47DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF96287-8FDE-4AE7-8C76-823F73D47DA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
