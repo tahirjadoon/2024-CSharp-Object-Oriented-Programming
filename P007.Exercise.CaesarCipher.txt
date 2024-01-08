@@ -1,0 +1,5 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P007.Exercise.CaesarCipher
+
+
+Exercise folder has the resources

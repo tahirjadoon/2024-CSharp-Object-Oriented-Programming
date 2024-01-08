@@ -8,6 +8,11 @@ namespace OOP.Core
 {
     public static class ConsoleHelper
     {
+        public static void WriteLine(string message) 
+        {
+            WriteLine(message, null); 
+        }
+
         public static void WriteLine(string message, ConsoleColor? color)
         {
             var defaultColor = Console.ForegroundColor;
