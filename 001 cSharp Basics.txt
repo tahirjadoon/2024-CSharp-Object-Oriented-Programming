@@ -155,8 +155,17 @@ Object Oriented Programming
 				Can't have access modifiers, all public								Can contain access modifiers
 				Can't contain variables												Can contain variables 
 				
-				
+	Composition: can be defined as "part-of" relationship between objects
+		Engine is part of car
+		The life time of the child instance is dependent upon the parent / owner class 
+		When the parent object is delete, the child object is destroyed as well 
 			
 			
-			
+	Aggregation: can be defined as "has-a" relationship between objects
+		Teachers and addresses, a teacher must have an address associated 
+		One owner
 		
+	Association: can be defined as "using" relationship between objects 
+		A teacher can be teaching many students and student may be learning from many teachers
+		There is no ownership
+		No lifetime dependency
