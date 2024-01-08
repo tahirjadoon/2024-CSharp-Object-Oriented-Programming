@@ -135,3 +135,28 @@ Object Oriented Programming
 		
 	enum: an enum (or enumeration type) is used to assign constant names to a group of numeric integer values
 		
+	this: The this keyword refers to the current instance of the class and is also used as a modifier of the first parameter of an extension method.
+	
+	Interfaces: 
+		Interface has no implementation
+		It only has the definition for a group of related functionalities
+		Will need a class or struct to implement the interface
+		It is a contract, classes or struct inplementing the interface should follow
+		
+	Interfaces VS Abstract 
+		Similarities
+			Can't be instantiated
+			Must implement all its members
+			Can contain events, methods and properties 
+		Differences
+			Interfaces 															Abstract Classes
+				Can't have method implementation									Can have method implementations
+				Allow multiple inheritance											Doesn't allow multiple inheritance 
+				Can't have access modifiers, all public								Can contain access modifiers
+				Can't contain variables												Can contain variables 
+				
+				
+			
+			
+			
+		
