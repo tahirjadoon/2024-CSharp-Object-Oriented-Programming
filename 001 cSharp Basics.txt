@@ -66,6 +66,14 @@ Error Types
 	Run time Errors (Exceptions)
 	Logical Errors
 	
+-------------------------------------	
+
+Build: Incremental, build the files that have been modified since last successful compile
+
+Re-build: Clean then buuld the solution from scratch 
+
+Clean: Deleet all compiled files from bin and obj dir
+
 -------------------------------------
 
 Math
