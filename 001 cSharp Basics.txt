@@ -177,3 +177,13 @@ Object Oriented Programming
 		A teacher can be teaching many students and student may be learning from many teachers
 		There is no ownership
 		No lifetime dependency
+		
+	Generic & Non Generic Collections
+		Generic												Non Generic
+		Type as a parameter
+		Elements of only one type							Multiple type
+		Type Safetly
+		System.Collections.Generic							System.Collections
+		
+		Non Generic Collection
+			rrayList, Hashtable, SortedList, Stack, Queue, BitArray
