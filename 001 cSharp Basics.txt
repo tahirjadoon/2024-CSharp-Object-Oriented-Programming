@@ -189,5 +189,6 @@ Object Oriented Programming
 			ArrayList, Hashtable, SortedList, Stack, Queue, BitArray
 			
 			Stack: Stack works as last-in first-out (LIFO) collection
+			Queue: Queue works as first-in first-out 
 			
 			
