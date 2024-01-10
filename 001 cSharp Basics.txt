@@ -186,4 +186,8 @@ Object Oriented Programming
 		System.Collections.Generic							System.Collections
 		
 		Non Generic Collection
-			rrayList, Hashtable, SortedList, Stack, Queue, BitArray
+			ArrayList, Hashtable, SortedList, Stack, Queue, BitArray
+			
+			Stack: Stack works as last-in first-out (LIFO) collection
+			
+			

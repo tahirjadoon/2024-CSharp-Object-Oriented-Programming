@@ -1,0 +1,5 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P011.Collections_Stack
+
+Check Programs for details
+
