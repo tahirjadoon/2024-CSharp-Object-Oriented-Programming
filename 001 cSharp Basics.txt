@@ -191,4 +191,7 @@ Object Oriented Programming
 			Stack: Stack works as last-in first-out (LIFO) collection
 			Queue: Queue works as first-in first-out 
 			
+		Generic
+			List<T> or IList<T>: generic collection that stores the elements of same type. Grows and shrinks. 
+			
 			

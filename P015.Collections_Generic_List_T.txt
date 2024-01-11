@@ -1,0 +1,5 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P015.Collections_Generic_List_T
+
+Check Programs for details
+
