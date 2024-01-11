@@ -1,0 +1,6 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P013.Collections_BitArray
+
+Check Programs for details
+
+
