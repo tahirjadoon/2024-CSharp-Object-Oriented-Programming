@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P012.Collections_Queue", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P013.Collections_BitArray", "P013.Collections_BitArray\P013.Collections_BitArray.csproj", "{CC4B5CC8-68FD-47AE-BB80-7D8D4E495A31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P014.Exercise.Struct_ArrayList", "P014.Exercise.Struct_ArrayList\P014.Exercise.Struct_ArrayList.csproj", "{7CFAB0DD-62C8-48BA-8AFA-CB6FDB22B743}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{CC4B5CC8-68FD-47AE-BB80-7D8D4E495A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4B5CC8-68FD-47AE-BB80-7D8D4E495A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4B5CC8-68FD-47AE-BB80-7D8D4E495A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFAB0DD-62C8-48BA-8AFA-CB6FDB22B743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFAB0DD-62C8-48BA-8AFA-CB6FDB22B743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFAB0DD-62C8-48BA-8AFA-CB6FDB22B743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFAB0DD-62C8-48BA-8AFA-CB6FDB22B743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
