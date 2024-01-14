@@ -23,6 +23,11 @@ namespace P026.Recursive_Methods
 
         static void DisplayFolders(string path, int indent)
         {
+            if (!Directory.Exists(path))
+            {
+                ConsoleHelper.WriteLine($"Dir doesn't exist: {path}", ConsoleColor.Red);
+                return;
+            }
             foreach(var folder in Directory.GetDirectories(path))
             {
                 var color = PickColor(indent);
