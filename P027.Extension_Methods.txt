@@ -1,0 +1,7 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P027.Extension_Methods
+
+
+Check program.cs for more detail
+
+
