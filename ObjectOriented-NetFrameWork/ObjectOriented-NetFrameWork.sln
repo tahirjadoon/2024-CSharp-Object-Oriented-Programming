@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P023.Generic_Classes", "P02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P024.Excercise.Generics_1", "P024.Excercise.Generics_1\P024.Excercise.Generics_1.csproj", "{46DAA7CD-C4A7-4F58-906B-6A29669403FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P025.Tuples", "P025.Tuples\P025.Tuples.csproj", "{01D9EF5F-BE7C-4F93-993D-C20AD6FB1614}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{46DAA7CD-C4A7-4F58-906B-6A29669403FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46DAA7CD-C4A7-4F58-906B-6A29669403FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46DAA7CD-C4A7-4F58-906B-6A29669403FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D9EF5F-BE7C-4F93-993D-C20AD6FB1614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D9EF5F-BE7C-4F93-993D-C20AD6FB1614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D9EF5F-BE7C-4F93-993D-C20AD6FB1614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D9EF5F-BE7C-4F93-993D-C20AD6FB1614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

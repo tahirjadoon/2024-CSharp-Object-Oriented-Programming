@@ -195,3 +195,5 @@ Object Oriented Programming
 			List<T> or IList<T>: generic collection that stores the elements of same type. Grows and shrinks. 
 			SortedDictionary: Represents a collection of key/value pairs that are sorted on the key
 			
+	Tuples
+		Can have 7 itms, 8th is nested tuple
