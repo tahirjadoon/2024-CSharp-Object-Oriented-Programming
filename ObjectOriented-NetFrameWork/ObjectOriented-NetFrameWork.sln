@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P029.Delegate_Multicast", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P030.Delegate_Generic", "P030.Delegate_Generic\P030.Delegate_Generic.csproj", "{5AF21F40-8013-48B8-8E0D-23C4D532271D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P031.Delegate_Anonymous_Methods", "P031.Delegate_Anonymous_Methods\P031.Delegate_Anonymous_Methods.csproj", "{6FA12293-404E-48BA-BA72-233F50A4515A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{5AF21F40-8013-48B8-8E0D-23C4D532271D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF21F40-8013-48B8-8E0D-23C4D532271D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AF21F40-8013-48B8-8E0D-23C4D532271D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA12293-404E-48BA-BA72-233F50A4515A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA12293-404E-48BA-BA72-233F50A4515A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA12293-404E-48BA-BA72-233F50A4515A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA12293-404E-48BA-BA72-233F50A4515A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
