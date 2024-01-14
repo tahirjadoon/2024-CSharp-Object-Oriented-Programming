@@ -197,3 +197,10 @@ Object Oriented Programming
 			
 	Tuples
 		Can have 7 itms, 8th is nested tuple
+		
+	Delegates
+		A delegate is a reference type
+		Hols the reference to the method
+		allow methods to be passed as parameters
+		are type safe
+		Delegate helps implement Encapsulation, Security, Callback (Obviously), Re-usability and if used wisely, Polymorphism also
