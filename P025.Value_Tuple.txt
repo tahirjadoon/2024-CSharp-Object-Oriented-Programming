@@ -1,0 +1,7 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P025.Value_Tuple
+
+
+Check program.cs for more detail
+
+These are to be add by nuget package: System.ValueTuple
