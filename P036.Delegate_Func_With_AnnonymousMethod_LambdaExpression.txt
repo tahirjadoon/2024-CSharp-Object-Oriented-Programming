@@ -1,0 +1,7 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P036.Delegate_Func_AnnonMethod_Lambda
+
+
+Check program.cs for more detail
+
+
