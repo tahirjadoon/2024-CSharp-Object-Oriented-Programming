@@ -1,0 +1,23 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P038.Exercise.Delegates_Actions_Generic
+
+
+Check program.cs for more detail
+
+
+Models Folder
+	Products.cs 
+	
+BusinessLayer Folder 
+	ICustomer.cs - Generic interface
+	FrequentCustomer.cs - implements ICustomer interface
+	
+
+ServiceCallManager
+	ServiceCaller
+		
+		This is static class and method
+		This is where the object will be created and action performed 
+		
+Program.cs 
+	calls the ServiceCaller.Invoke
