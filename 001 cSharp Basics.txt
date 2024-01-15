@@ -204,3 +204,10 @@ Object Oriented Programming
 		allow methods to be passed as parameters
 		are type safe
 		Delegate helps implement Encapsulation, Security, Callback (Obviously), Re-usability and if used wisely, Polymorphism also
+		
+	Func 
+		built in generic delegate
+		it has upto 16 parameters 
+		it has one out parameter
+		the last parameter os considered as an out parameter
+		must return a value

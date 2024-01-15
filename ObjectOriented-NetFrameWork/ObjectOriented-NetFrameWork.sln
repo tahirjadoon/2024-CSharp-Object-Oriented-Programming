@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P031.Delegate_Anonymous_Met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P032.Deleagte_Anonymous_LambdaExmp", "P032.Deleagte_Anonymous_LambdaExmp\P032.Deleagte_Anonymous_LambdaExmp.csproj", "{B9B06D04-7F77-4E48-9F6C-08F17424548D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P033.Delegate_Func", "P033.Delegate_Func\P033.Delegate_Func.csproj", "{1101C01E-60F0-4724-AC20-B2DB0CA5E892}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{B9B06D04-7F77-4E48-9F6C-08F17424548D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9B06D04-7F77-4E48-9F6C-08F17424548D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9B06D04-7F77-4E48-9F6C-08F17424548D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1101C01E-60F0-4724-AC20-B2DB0CA5E892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1101C01E-60F0-4724-AC20-B2DB0CA5E892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1101C01E-60F0-4724-AC20-B2DB0CA5E892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1101C01E-60F0-4724-AC20-B2DB0CA5E892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
