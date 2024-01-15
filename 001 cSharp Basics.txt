@@ -215,4 +215,7 @@ Object Oriented Programming
 		Action
 			Action delegate is the same as Func except it doesn't return a value 
 			
-		
+		Predicate 
+			is the same as Func and Action delegates. 
+			It must take one input parameter
+			returns a boolean value 
