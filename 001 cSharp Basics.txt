@@ -205,9 +205,14 @@ Object Oriented Programming
 		are type safe
 		Delegate helps implement Encapsulation, Security, Callback (Obviously), Re-usability and if used wisely, Polymorphism also
 		
-	Func 
-		built in generic delegate
-		it has upto 16 parameters 
-		it has one out parameter
-		the last parameter os considered as an out parameter
-		must return a value
+		Func 
+			built in generic delegate
+			it has upto 16 parameters 
+			it has one out parameter
+			the last parameter os considered as an out parameter
+			must return a value
+			
+		Action
+			Action delegate is the same as Func except it doesn't return a value 
+			
+		
