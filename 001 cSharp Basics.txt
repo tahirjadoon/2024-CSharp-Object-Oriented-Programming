@@ -276,3 +276,20 @@ Object Oriented Programming
 			It must take one input parameter
 			returns a boolean value 
 			
+--------------------------------------
+
+Multithreading
+	Advantages
+		* Responsiveness
+		* Faster execution
+		* Lower resource consumption
+		* Better system utilization 
+	Disadvantages
+		* Deadlocks: when two or more threads are blocking each other, race condition
+		* Difficulty to debug
+		* Difficulty to test
+		* Complexity
+	
+	
+	
+	
