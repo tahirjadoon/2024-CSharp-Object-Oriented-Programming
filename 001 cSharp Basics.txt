@@ -51,6 +51,62 @@ Comparison Operators: == equal, != not equal, > greater than, < less than, >= gr
 
 -------------------------------------
 
+Operators
+	?. and ?[] Null-conditional operators oe safe navigation operator
+		if a evaluates to null, the result of a?.x or a?[x] is null.
+		The null-conditional operators are short-circuiting. That is, if one operation in a chain of conditional member or element access operations returns null, the rest of the chain doesn't execute.
+		In the following example, B isn't evaluated if A evaluates to null and C isn't evaluated if A or B evaluates to null:
+		A?.B?.Do(C);
+		
+		
+		double SumNumbers(List<double[]> setsOfNumbers, int indexOfSetToSum)
+		{
+			return setsOfNumbers?[indexOfSetToSum]?.Sum() ?? double.NaN;
+		}
+		Example 1
+			var sum1 = SumNumbers(null, 0);
+			Console.WriteLine(sum1);  // output: NaN
+			
+		Example 2
+			List<double[]?> numberSets =
+			[
+				[1.0, 2.0, 3.0],
+				null
+			];
+
+			var sum2 = SumNumbers(numberSets, 0);
+			Console.WriteLine(sum2);  // output: 6
+
+			var sum3 = SumNumbers(numberSets, 1);
+			Console.WriteLine(sum3);  // output: NaN
+	
+	?? null-coalescing operator : returns the value of its left-hand operand if it isn't null ; otherwise, it evaluates the right-hand operand and returns its result
+		int? a = null;
+		Console.WriteLine((a ?? 3)); // expected: 3 since a is still null 
+		
+	??= null-coalescing assignment operator : assigns the value of its right-hand operand to its left-hand operand only if the left-hand operand evaluates to null
+		List<int>? numbers = null;
+		int? a = null;
+		(numbers ??= new List<int>()).Add(5);
+		numbers.Add(a ??= 0); //if a is null then assign 0 to a and add a to the list
+	
+	?: ternary conditional operator : evaluates a Boolean expression and returns the result of one of the two expressions
+		condition ? consequent : alternative
+		
+	! null-forgiving, or null-suppression, operator
+		public class Person
+		{
+			public Person(string name) => Name = name ?? throw new ArgumentNullException(nameof(name));
+			public string Name { get; }
+		}
+		
+		var person = new Person(null!);
+		Without ! will get Warning CS8625: Cannot convert null literal to non-nullable reference type
+		
+	:: namespace alias qualifier : to access a member of an aliased namespace
+		
+-------------------------------------
+
 Logical Operators 
 	
 	ConditionX		ConditionY		AND		OR
@@ -219,3 +275,4 @@ Object Oriented Programming
 			is the same as Func and Action delegates. 
 			It must take one input parameter
 			returns a boolean value 
+			
