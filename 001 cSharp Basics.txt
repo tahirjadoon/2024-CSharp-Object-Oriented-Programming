@@ -256,25 +256,78 @@ Object Oriented Programming
 		
 	Delegates
 		A delegate is a reference type
-		Hols the reference to the method
+		Holds the reference to the method
 		allow methods to be passed as parameters
 		are type safe
 		Delegate helps implement Encapsulation, Security, Callback (Obviously), Re-usability and if used wisely, Polymorphism also
-		
+			Simple 
+				public delegate void PlayerInfoDelegate();
+				public delegate void PlayerInfoWithNameDelegate(string playerName);
+				PlayerInfoDelegate ronaldinho = new PlayerInfoDelegate(DisplayInformation);
+				ronaldinho.Invoke();
+				ronaldinho();
+			Multicast
+				public delegate void SayHiDelegate();
+				SayHiDelegate sayHi = null;
+				sayHi = new SayHiDelegate(SayHiEnglish);
+				sayHi += new SayHiDelegate(SayHiSpanish);
+				sayHi();
+			Generic
+				public delegate T DisplayInfoDelegate<T>(T value);
+				DisplayInfoDelegate<int> myNumber = new DisplayInfoDelegate<int>(DisplayValue);
+				Console.WriteLine(myNumber(100));
+			Annonymous
+				DisplayInfoDelegate normalDelegateAnonymous = delegate { Console.WriteLine("Hi from the anonymous method"); };
+				normalDelegateAnonymous();
+			Lambda
+				delegate int MultiplyDelegate(int n);
+				MultiplyDelegate multiplyNum = n => n * 3;
+				Console.WriteLine(multiplyNum(30));
+				
+				delegate void DisplayMsgDelegate();
+				DisplayMsgDelegate message = () => { Console.WriteLine("Hi from the anonymous method"); };
+				message();
 		Func 
 			built in generic delegate
 			it has upto 16 parameters 
 			it has one out parameter
-			the last parameter os considered as an out parameter
+			the last parameter is considered as an out parameter
 			must return a value
+			
+			Func<int, int, int> funcOne = AddTwoNumbers;
+            Console.WriteLine("funcOne = " + funcOne(3, 10));
 			
 		Action
 			Action delegate is the same as Func except it doesn't return a value 
+			
+			Action<int> action1 = DisplayInformation;
+            action1(16);
 			
 		Predicate 
 			is the same as Func and Action delegates. 
 			It must take one input parameter
 			returns a boolean value 
+			
+			Predicate<int> condition = IsAdmin;
+            Console.WriteLine("Is emp 11 admin: " + condition(11));
+			
+		Annonymous and FUNC or Lambda exaple 
+			//Annonymous Method
+			Func<string, string> annonmyousMethod = delegate (string myName) { return myName.ToUpper(); };
+			Console.WriteLine($"With AnnonmyousMethod changing '{text}' = " + annonmyousMethod(text));
+
+			//Lambda Expression
+			Func<string, string> lambdaExpression = intext => intext.ToUpper();
+			Console.WriteLine($"With LambdaExpression changing '{text}' = " + lambdaExpression(text));
+			
+		Annonymous and Action or Lambda exaple 
+			//Annonymous method
+            Action<string> anonymousMethod = delegate (string inName) { Console.WriteLine($"Hi, how are you today '{inName}'? I am anonymousMethod"); };
+            anonymousMethod(name);
+
+            //lambda Expression
+            Action<string> lambdaExpression = inName => { Console.WriteLine($"Hi, how are you today '{inName}'? I am lambda expression"); };
+            lambdaExpression(name);
 			
 --------------------------------------
 

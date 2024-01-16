@@ -1,0 +1,112 @@
+dotnet --list-runtimes
+dotnet --list-sdks
+
+dotnet --info
+dotnet run 
+dotnet watch or dotnet watch run or dotnet watch –no-hot-reload
+dotnet clean
+dotnet build
+dotnet restore
+dotnet msbuild
+dotnet tool list -g
+
+Migrations:
+	dotnet ef migrations add InitialCreate -o Core/DB/Migrations  [FIRST TIME, SECOND TIME NO NEED TO SPECIFY DIR]
+	dotnet ef migrations remove
+	dotnet ef database update
+	
+	--Completely remove all migrations and start all over again
+	•	dotnet ef database update 0
+	•	dotnet ef migrations remove
+
+	--Drop database and recreate
+	•	dotnet ef database drop
+	•	dotnet ef database update
+
+--------------------------
+Creating a new API Project
+--------------------------
+Create a Solution
+
+	C:\2023-API-OAuth2\API-01-Basics>dotnet new sln
+			Creates the solution the same as the containing folder
+			
+	C:\2023-API-OAuth2\API-01-Basics>dotnet new sln --name OAuth2
+			Creates the solution with name OAuth2 
+			
+			Welcome to .NET 7.0!
+			---------------------
+			SDK Version: 7.0.400
+			
+			The template "Solution File" was created successfully.
+	
+Create a project
+
+	C:\2023-API-OAuth2\API-01-Basics>dotnet new webapi -o OAuth2.WebApi
+		Create a new folder with name OAuth2.WebApi 
+		This creates the basic template of the WebApi project in this folder 
+		
+		The template "ASP.NET Core Web API" was created successfully.
+
+		Processing post-creation actions...
+		Restoring C:\2023-API-OAuth2\API-01-Basics\OAuth2.WebApi\OAuth2.WebApi.csproj:
+		  Determining projects to restore...
+		  Restored C:\2023-API-OAuth2\API-01-Basics\OAuth2.WebApi\OAuth2.WebApi.csproj (in 6.25 sec).
+		Restore succeeded.
+		
+Add the project to the solution 
+	
+	C:\2023-API-OAuth2\API-01-Basics>dotnet sln add OAuth2.WebApi
+		Project `OAuth2.WebApi\OAuth2.WebApi.csproj` added to the solution.
+		
+------------------------------------------------------
+Different Project templates to install with dotnet new
+------------------------------------------------------
+	https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new 
+
+	dotnet new console --framework net8.0 --use-program-main
+	dotnet new webapi -o OAuth2.WebApi
+	
+	Solution file 	sln
+	Console application 	console
+	ASP.NET Core web API 	webapi
+	ASP.NET Core empty 	web
+	Class library 	classlib
+	ASP.NET Core web app (Model-View-Controller) 	mvc
+	ASP.NET Core web app 	webapp, razor
+	Web config 	webconfig
+	ASP.NET Core gRPC service 	grpc
+	Unit test project 	mstest
+	NUnit 3 test project 	nunit
+	NUnit 3 test item 	nunit-test
+	xUnit test project 	xunit
+	WPF application 	wpf
+	WPF class library 	wpflib
+	WPF custom control library 	wpfcustomcontrollib
+	WPF user control library 	wpfusercontrollib
+	Windows Forms (WinForms) application 	winforms
+	Windows Forms (WinForms) class library 	winformslib
+	Worker service 	worker
+	Razor component 	razorcomponent
+	Razor page 	page
+	MVC ViewImports 	viewimports
+	MVC ViewStart 	viewstart
+	Blazor server app 	blazorserver
+	Blazor WebAssembly app 	blazorwasm
+	ASP.NET Core with Angular 	angular
+	ASP.NET Core with React.js 	react
+	Razor class library 	razorclasslib
+	dotnet gitignore file 	gitignore
+	global.json file 	globaljson
+	NuGet config 	nugetconfig
+	Dotnet local tool manifest file 	tool-manifest
+	Protocol buffer file 	proto
+	EditorConfig file 	editorconfig
+	
+	The first time you open a .cs file, Visual Studio Code prompts you to add assets to build and debug your app. Select Yes, and Visual Studio Code creates a .vscode folder with launch.json and tasks.json files.
+		Note
+			If you don't get the prompt, or if you accidentally dismiss it without selecting Yes, do the following steps to create launch.json and tasks.json:
+
+			Select Run > Add Configuration from the menu.
+			Select .NET 5+ and .NET Core at the Select environment prompt.
+			
