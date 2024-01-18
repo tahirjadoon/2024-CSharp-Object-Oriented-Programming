@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P040.Events_More", "P040.Ev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P041.Threads", "P041.Threads\P041.Threads.csproj", "{B40B81FD-C693-49C0-BEAB-5443BE210379}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P042.Multithreading", "P042.Multithreading\P042.Multithreading.csproj", "{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{B40B81FD-C693-49C0-BEAB-5443BE210379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B40B81FD-C693-49C0-BEAB-5443BE210379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B40B81FD-C693-49C0-BEAB-5443BE210379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
