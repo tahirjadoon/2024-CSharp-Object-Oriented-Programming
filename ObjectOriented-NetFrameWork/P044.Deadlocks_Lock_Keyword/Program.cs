@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace P044.Deadlocks_Lock_Keyword
 {
+    //also check Monitor_Class project
     internal class Program
     {
         static void Main(string[] args)

@@ -1,0 +1,7 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P046.Monitor_Class
+
+
+Check program.cs for more detail
+
+
