@@ -23,7 +23,7 @@ namespace OOP.Core
             Console.WriteLine(message);
             if (color != null)
             {
-                Console.ForegroundColor = defaultColor;
+                Console.ResetColor();// = defaultColor;
             }
         }
     }

@@ -343,6 +343,10 @@ Multithreading
 		* Difficulty to test
 		* Complexity
 	
-	
-	
+	Thread
+		Thread t1 = new Thread(new ThreadStart(SayHiEnglish));
+		t1.Start();
+		
+		Thread t2 = new Thread(new ThreadStart(SayHiSpanish));
+		t2.Start();
 	
