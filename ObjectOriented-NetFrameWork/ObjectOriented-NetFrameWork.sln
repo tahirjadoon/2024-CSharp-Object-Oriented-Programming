@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P043.Parameterized_Threadst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P044.Deadlocks_Lock_Keyword", "P044.Deadlocks_Lock_Keyword\P044.Deadlocks_Lock_Keyword.csproj", "{C2CB5559-F175-4326-AF74-C202FAC3E010}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P045.Parallel_Threads", "P045.Parallel_Threads\P045.Parallel_Threads.csproj", "{C1E7A95A-FC7B-4C31-A427-CD2C46273689}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{C2CB5559-F175-4326-AF74-C202FAC3E010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2CB5559-F175-4326-AF74-C202FAC3E010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2CB5559-F175-4326-AF74-C202FAC3E010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E7A95A-FC7B-4C31-A427-CD2C46273689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E7A95A-FC7B-4C31-A427-CD2C46273689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E7A95A-FC7B-4C31-A427-CD2C46273689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E7A95A-FC7B-4C31-A427-CD2C46273689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
