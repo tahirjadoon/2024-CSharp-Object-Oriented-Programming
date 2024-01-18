@@ -349,4 +349,15 @@ Multithreading
 		
 		Thread t2 = new Thread(new ThreadStart(SayHiSpanish));
 		t2.Start();
+		
+--------------------------------------
+
+Deadlocks - Lock Keyword
+	Deadlocks occur when a thread enters a waiting state because a requested system resource is held by another waiting thread 
+	which in turn is waiting for another resource held by another waiting thread 
+	
+	Lock keyword will ensure that one thread is executing a piece of code at one time. 
+	This means that one thread does not enter a critical section of code while another thread is in that critical section 
+	
+	
 	
