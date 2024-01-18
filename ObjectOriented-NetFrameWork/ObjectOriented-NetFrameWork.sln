@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P041.Threads", "P041.Thread
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P042.Multithreading", "P042.Multithreading\P042.Multithreading.csproj", "{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P043.Parameterized_Threadstart", "P043.Parameterized_Threadstart\P043.Parameterized_Threadstart.csproj", "{B204B58D-F209-406A-B272-98078D4F09C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CB6D2EC-A8AE-4E31-A3F4-1A177D87DE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B204B58D-F209-406A-B272-98078D4F09C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B204B58D-F209-406A-B272-98078D4F09C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B204B58D-F209-406A-B272-98078D4F09C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B204B58D-F209-406A-B272-98078D4F09C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
