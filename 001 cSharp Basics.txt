@@ -359,5 +359,15 @@ Deadlocks - Lock Keyword
 	Lock keyword will ensure that one thread is executing a piece of code at one time. 
 	This means that one thread does not enter a critical section of code while another thread is in that critical section 
 	
+Monitor
+	can also use Monitory as well 
 	
+Mutex
+	Mutex (mutual exclusion) object is used to synchronize access to a protected resource 
+	A mutex's scope is system wide , while the monitor's scope and lock's scope is application wide 
+
+	
+--------------------------------------
+
+
 	
