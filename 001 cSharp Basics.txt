@@ -366,6 +366,11 @@ Mutex
 	Mutex (mutual exclusion) object is used to synchronize access to a protected resource 
 	A mutex's scope is system wide , while the monitor's scope and lock's scope is application wide 
 
+Semaphore
+	is doing the same job as Lock, Monitor and Mutex 
+	allows a limited degree of parallelism in a code section
+	
+	Since multiple threads can execute the same piece of code at the same time, the semaphore guarantees only x of them can execute the same block at the same time.
 	
 --------------------------------------
 
