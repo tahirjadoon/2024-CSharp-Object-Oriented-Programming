@@ -14,7 +14,7 @@ namespace P050.Tasks_ReturnValue
             Task<int> task = new Task<int>(() =>
             {
                 int result = 0;
-                for(int i = 1; i <= 5; i++)
+                for(int i = 1; i <= 100; i++)
                 {
                     result += i;
                     ConsoleHelper.WriteLine($"{i}: result = {result}", ConsoleColor.Yellow);

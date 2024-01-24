@@ -113,6 +113,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P052.Tasks_Cancelling", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P053.Tasks_Wait", "P053.Tasks_Wait\P053.Tasks_Wait.csproj", "{C712E05B-9711-4C17-B81F-E034E4752F0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P054.Tasks_Run", "P054.Tasks_Run\P054.Tasks_Run.csproj", "{041EC876-4C21-4DF3-84C8-47EDACD7EC48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -339,6 +341,10 @@ Global
 		{C712E05B-9711-4C17-B81F-E034E4752F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C712E05B-9711-4C17-B81F-E034E4752F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C712E05B-9711-4C17-B81F-E034E4752F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041EC876-4C21-4DF3-84C8-47EDACD7EC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041EC876-4C21-4DF3-84C8-47EDACD7EC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041EC876-4C21-4DF3-84C8-47EDACD7EC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041EC876-4C21-4DF3-84C8-47EDACD7EC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
