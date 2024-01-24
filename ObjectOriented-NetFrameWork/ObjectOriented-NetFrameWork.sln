@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P051.Tasks_CheckStatus", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P052.Tasks_Cancelling", "P052.Tasks_Cancelling\P052.Tasks_Cancelling.csproj", "{AB7BAD91-08A0-4C55-9240-C6531B7167A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P053.Tasks_Wait", "P053.Tasks_Wait\P053.Tasks_Wait.csproj", "{C712E05B-9711-4C17-B81F-E034E4752F0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{AB7BAD91-08A0-4C55-9240-C6531B7167A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB7BAD91-08A0-4C55-9240-C6531B7167A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB7BAD91-08A0-4C55-9240-C6531B7167A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C712E05B-9711-4C17-B81F-E034E4752F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C712E05B-9711-4C17-B81F-E034E4752F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C712E05B-9711-4C17-B81F-E034E4752F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C712E05B-9711-4C17-B81F-E034E4752F0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
