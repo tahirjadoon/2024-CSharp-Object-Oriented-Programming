@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P047.Mutex", "P047.Mutex\P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P048.Semaphore", "P048.Semaphore\P048.Semaphore.csproj", "{C84C4523-6896-447A-B216-A4A22901625B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P049.Tasks", "P049.Tasks\P049.Tasks.csproj", "{A2F405D0-B37A-4AC3-B619-22BF0B9BAA4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{C84C4523-6896-447A-B216-A4A22901625B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C84C4523-6896-447A-B216-A4A22901625B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C84C4523-6896-447A-B216-A4A22901625B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F405D0-B37A-4AC3-B619-22BF0B9BAA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F405D0-B37A-4AC3-B619-22BF0B9BAA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F405D0-B37A-4AC3-B619-22BF0B9BAA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F405D0-B37A-4AC3-B619-22BF0B9BAA4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
