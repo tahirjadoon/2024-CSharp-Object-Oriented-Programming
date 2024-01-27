@@ -370,9 +370,19 @@ Semaphore
 	is doing the same job as Lock, Monitor and Mutex 
 	allows a limited degree of parallelism in a code section
 	
-	Since multiple threads can execute the same piece of code at the same time, the semaphore guarantees only x of them can execute the same block at the same time.
+	Since multiple threads can execute the same piece of code at the same time, the semaphore guarantees only x of them can execute the same block at the same time.C
 	
 --------------------------------------
 
+Concurrent Collections - Concurrent Bag
+	Provides several thread-safe collection classes 
+	these should be used in place of corresponding types from System.Collections and System.Collections.Generic namespaces
+	whenever multiple threads are accessing the collection concurrenlty
+	
+	BlockingCollection<T>
+	ConcurrentBag<T>
+	ConcurrentDictionary<T>
+	ConsurrentStack<T>
+	ConcurrentQueue<T>
 
 	

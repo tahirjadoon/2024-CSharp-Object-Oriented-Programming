@@ -117,6 +117,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P054.Tasks_Run", "P054.Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P055.Async_Await", "P055.Async_Await\P055.Async_Await.csproj", "{0C53A5C7-ED5B-4A6E-86A1-9C8B4C996FDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P056.Concurrent_Collections", "P056.Concurrent_Collections\P056.Concurrent_Collections.csproj", "{01A2DF6D-0C6E-4AA4-B7B6-6FB7AC49AD0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,10 @@ Global
 		{0C53A5C7-ED5B-4A6E-86A1-9C8B4C996FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C53A5C7-ED5B-4A6E-86A1-9C8B4C996FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C53A5C7-ED5B-4A6E-86A1-9C8B4C996FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A2DF6D-0C6E-4AA4-B7B6-6FB7AC49AD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A2DF6D-0C6E-4AA4-B7B6-6FB7AC49AD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A2DF6D-0C6E-4AA4-B7B6-6FB7AC49AD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A2DF6D-0C6E-4AA4-B7B6-6FB7AC49AD0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
