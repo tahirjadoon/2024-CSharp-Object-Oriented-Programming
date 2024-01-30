@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P056.Concurrent_Collections
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P057.Speech_Synthesizer", "P057.Speech_Synthesizer\P057.Speech_Synthesizer.csproj", "{9CA69300-7B6C-4FEC-A1E9-5BBD98E3BF55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P058.Indexers", "P058.Indexers\P058.Indexers.csproj", "{3C5B82DD-CC43-4104-815C-FA278F66FC2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{9CA69300-7B6C-4FEC-A1E9-5BBD98E3BF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CA69300-7B6C-4FEC-A1E9-5BBD98E3BF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CA69300-7B6C-4FEC-A1E9-5BBD98E3BF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5B82DD-CC43-4104-815C-FA278F66FC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5B82DD-CC43-4104-815C-FA278F66FC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5B82DD-CC43-4104-815C-FA278F66FC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5B82DD-CC43-4104-815C-FA278F66FC2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
