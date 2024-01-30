@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P057.Speech_Synthesizer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P058.Indexers", "P058.Indexers\P058.Indexers.csproj", "{3C5B82DD-CC43-4104-815C-FA278F66FC2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P059.Static_Directives", "P059.Static_Directives\P059.Static_Directives.csproj", "{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -369,6 +371,10 @@ Global
 		{3C5B82DD-CC43-4104-815C-FA278F66FC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C5B82DD-CC43-4104-815C-FA278F66FC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C5B82DD-CC43-4104-815C-FA278F66FC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
