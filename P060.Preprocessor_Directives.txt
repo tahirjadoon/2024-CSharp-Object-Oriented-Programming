@@ -1,0 +1,7 @@
+Solution: ObjectOriented-NetFrameWork\ObjectOriented-NetFrameWork.sln
+Project: P060.Preprocessor_Directives
+
+
+Check program.cs for more detail
+
+

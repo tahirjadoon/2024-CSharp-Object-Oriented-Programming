@@ -385,4 +385,9 @@ Concurrent Collections - Concurrent Bag
 	ConsurrentStack<T>
 	ConcurrentQueue<T>
 
+--------------------------------------
+
+Preprocessor Directives
+	give instructions to the compiler to pre-process some information before actual compilation starts 
+	
 	

@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P058.Indexers", "P058.Index
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P059.Static_Directives", "P059.Static_Directives\P059.Static_Directives.csproj", "{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P060.Preprocessor_Directives", "P060.Preprocessor_Directives\P060.Preprocessor_Directives.csproj", "{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECE9C639-7113-4CB0-9D41-0E6A0A20FEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
