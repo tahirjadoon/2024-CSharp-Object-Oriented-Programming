@@ -129,6 +129,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P060.Preprocessor_Directive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P061.Yield", "P061.Yield\P061.Yield.csproj", "{70E3721C-341F-4E31-A617-27D20E875178}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P062.DotNetCore.Default_Interface_Methods", "P062.DotNetCore.Default_Interface_Methods\P062.DotNetCore.Default_Interface_Methods.csproj", "{8151F5B0-3044-4729-898F-A54ACE324511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.DotNetCore.Core", "OOP.DotNetCore.Core\OOP.DotNetCore.Core.csproj", "{42BE4A9C-228F-4604-8E66-3131E78ED5CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -387,6 +391,14 @@ Global
 		{70E3721C-341F-4E31-A617-27D20E875178}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70E3721C-341F-4E31-A617-27D20E875178}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70E3721C-341F-4E31-A617-27D20E875178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8151F5B0-3044-4729-898F-A54ACE324511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8151F5B0-3044-4729-898F-A54ACE324511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8151F5B0-3044-4729-898F-A54ACE324511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8151F5B0-3044-4729-898F-A54ACE324511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42BE4A9C-228F-4604-8E66-3131E78ED5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BE4A9C-228F-4604-8E66-3131E78ED5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BE4A9C-228F-4604-8E66-3131E78ED5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BE4A9C-228F-4604-8E66-3131E78ED5CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
