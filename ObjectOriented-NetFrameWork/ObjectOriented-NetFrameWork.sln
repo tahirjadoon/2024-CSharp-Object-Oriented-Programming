@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P063.DotNetCore.Using_Dispo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P064.DotNetCore.PositionalPatron_UsingExp", "P064.DotNetCore.PositionalPatron_UsingExp\P064.DotNetCore.PositionalPatron_UsingExp.csproj", "{5A0FB5D8-40FD-447F-95E1-33C981CADC74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P065.DotNetCore.TuplePattern_UsingExp", "P065.DotNetCore.TuplePattern_UsingExp\P065.DotNetCore.TuplePattern_UsingExp.csproj", "{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +413,10 @@ Global
 		{5A0FB5D8-40FD-447F-95E1-33C981CADC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A0FB5D8-40FD-447F-95E1-33C981CADC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A0FB5D8-40FD-447F-95E1-33C981CADC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
