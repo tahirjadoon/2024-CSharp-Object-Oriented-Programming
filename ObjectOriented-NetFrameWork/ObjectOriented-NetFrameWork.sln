@@ -135,9 +135,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.DotNetCore.Core", "OOP.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P063.DotNetCore.Using_Dispose", "P063.DotNetCore.Using_Dispose\P063.DotNetCore.Using_Dispose.csproj", "{B049B167-28F7-419F-8F94-7B5B01FE40C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P064.DotNetCore.PositionalPatron_UsingExp", "P064.DotNetCore.PositionalPatron_UsingExp\P064.DotNetCore.PositionalPatron_UsingExp.csproj", "{5A0FB5D8-40FD-447F-95E1-33C981CADC74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P064.DotNetCore.PositionalPatron_SwitchExp", "P064.DotNetCore.PositionalPatron_UsingExp\P064.DotNetCore.PositionalPatron_SwitchExp.csproj", "{5A0FB5D8-40FD-447F-95E1-33C981CADC74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P065.DotNetCore.TuplePattern_UsingExp", "P065.DotNetCore.TuplePattern_UsingExp\P065.DotNetCore.TuplePattern_UsingExp.csproj", "{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P065.DotNetCore.TuplePattern_SwitchExp", "P065.DotNetCore.TuplePattern_UsingExp\P065.DotNetCore.TuplePattern_SwitchExp.csproj", "{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P066.DotNetCore.PropertyPattern_SwitchExp", "P066.DotNetCore.PropertyPattern_SwitchExp\P066.DotNetCore.PropertyPattern_SwitchExp.csproj", "{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +419,10 @@ Global
 		{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF4D714-B28F-4C1F-A2F5-996DEB4E97F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
