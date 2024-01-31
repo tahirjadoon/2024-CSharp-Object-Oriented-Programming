@@ -24,6 +24,8 @@ namespace P060.Preprocessor_Directives
 #else
             Console.WriteLine($"This app is live");
 #endif
+
+            // other #error #warning
         }
     }
 }
