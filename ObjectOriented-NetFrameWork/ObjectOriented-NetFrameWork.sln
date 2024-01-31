@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P059.Static_Directives", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P060.Preprocessor_Directives", "P060.Preprocessor_Directives\P060.Preprocessor_Directives.csproj", "{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P061.Yield", "P061.Yield\P061.Yield.csproj", "{70E3721C-341F-4E31-A617-27D20E875178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD492E3-EDEB-4DE4-8252-429A5ADEFA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E3721C-341F-4E31-A617-27D20E875178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E3721C-341F-4E31-A617-27D20E875178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E3721C-341F-4E31-A617-27D20E875178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E3721C-341F-4E31-A617-27D20E875178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
