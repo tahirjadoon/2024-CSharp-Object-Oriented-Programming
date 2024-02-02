@@ -104,6 +104,25 @@ Operators
 		Without ! will get Warning CS8625: Cannot convert null literal to non-nullable reference type
 		
 	:: namespace alias qualifier : to access a member of an aliased namespace
+	
+	^ index hat operator like ^1 means length -1
+	
+	.. Range Operator - lets say max length of the array is 5
+		City            Index   Over
+		New york        0       6
+		Vienna          1       5
+		Madrid          2       4
+		London          3       3
+		Cairo           4       2
+		Tokyo           5       1
+
+        cities[0..5]            Length=5        New york, Vienna, Madrid, London, Cairo
+        cities[^5..^2]          Length=3        Vienna, Madrid, London
+        cities[^5..^4]          Length=1        Vienna
+        cities[..]              Length=6        New york, Vienna, Madrid, London, Cairo, Tokyo
+        cities[..3]             Length=3        New york, Vienna, Madrid
+        cities[1..]             Length=5        Vienna, Madrid, London, Cairo, Tokyo
+        cities[1..3]            Length=2        Vienna, Madrid
 		
 -------------------------------------
 

@@ -145,6 +145,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P067.DotNetCore.Async_Strea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P068.DotnetCore.Index_Hat_Operator", "P068.DotnetCore.Index_Hat_Operator\P068.DotnetCore.Index_Hat_Operator.csproj", "{96AE3905-EDC8-4150-88DC-EDEFB48535C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P069.DotNetCore.Range_Operator", "P069.DotNetCore.Range_Operator\P069.DotNetCore.Range_Operator.csproj", "{2C62DAF4-3B0B-4877-ADDC-0D06261FFB16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +437,10 @@ Global
 		{96AE3905-EDC8-4150-88DC-EDEFB48535C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96AE3905-EDC8-4150-88DC-EDEFB48535C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96AE3905-EDC8-4150-88DC-EDEFB48535C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C62DAF4-3B0B-4877-ADDC-0D06261FFB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C62DAF4-3B0B-4877-ADDC-0D06261FFB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C62DAF4-3B0B-4877-ADDC-0D06261FFB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C62DAF4-3B0B-4877-ADDC-0D06261FFB16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
