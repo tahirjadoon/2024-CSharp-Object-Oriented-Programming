@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P065.DotNetCore.TuplePatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P066.DotNetCore.PropertyPattern_SwitchExp", "P066.DotNetCore.PropertyPattern_SwitchExp\P066.DotNetCore.PropertyPattern_SwitchExp.csproj", "{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P067.DotNetCore.Async_Streams", "P067.DotNetCore.Async_Streams\P067.DotNetCore.Async_Streams.csproj", "{BC00ED9D-8EC2-4EB7-AA8D-B698E736775C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -423,6 +425,10 @@ Global
 		{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6D24008-C8D3-4C6F-BFD9-83BB8A6DC97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC00ED9D-8EC2-4EB7-AA8D-B698E736775C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC00ED9D-8EC2-4EB7-AA8D-B698E736775C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC00ED9D-8EC2-4EB7-AA8D-B698E736775C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC00ED9D-8EC2-4EB7-AA8D-B698E736775C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
